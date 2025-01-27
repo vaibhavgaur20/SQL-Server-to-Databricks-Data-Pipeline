@@ -17,46 +17,46 @@ Flexibility: ADF offers flexibility in scheduling, data movement, and integratio
 Improved Data Quality: Enables data cleansing, transformation, and enrichment to improve data quality for downstream applications.
 
 # Flow Chart 
-+-----------------+
-| Start            |
-+-----------------+
-  |
-  V
-+-----------------+
-| Schedule Trigger | 
-| (e.g., Daily)    |
-+-----------------+
-  |
-  V
-+-----------------+
-| ADF: Data Ingestion |
-| (SQL Server)       |
-+-----------------+
-  |
-  V
-+-----------------+
-| ADF: Data Movement |
-| (To Databricks)    |
-+-----------------+
-  |
-  V
-+-----------------+
-| Databricks: Data Transformation |
-| (Spark Jobs)       |
-+-----------------+
-  |
-  V
-+-----------------+
-| Data Validation/Quality Checks |
-+-----------------+
-  |
-  V
-+-----------------+
-| Data Loading/Storage |
-| (Data Lake, Data Warehouse) |
-+-----------------+
-  |
-  V
-+-----------------+
-| End             |
-+-----------------+
++-----------------+  
+| Start            |  
++-----------------+   
+  |  
+  V  
++-----------------+    
+| Schedule Trigger |   
+| (e.g., Daily)    |  
++-----------------+  
+  |  
+  V  
++-----------------+  
+| ADF: Data Ingestion |  
+| (SQL Server)       |  
++-----------------+  
+  |  
+  V  
++-----------------+  
+| ADF: Data Movement |  
+| (To Databricks)    |  
++-----------------+  
+  |  
+  V  
++-----------------+  
+| Databricks: Data Transformation |  
+| (Spark Jobs)       |  
++-----------------+  
+  |  
+  V  
++-----------------+  
+| Data Validation/Quality Checks |  
++-----------------+  
+  |  
+  V  
++-----------------+  
+| Data Loading/Storage |  
+| (Data Lake, Data Warehouse) |  
++-----------------+  
+  |  
+  V  
++-----------------+  
+| End             |  
++-----------------+  
